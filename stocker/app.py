@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 from ui.layout import create_layout
 from data.fetchers.yahoo_fetcher import YahooFetcher
-from data.processors.data_processor import process_stock_data
+from data.fetchers.processors.data_processor import process_stock_data
 from visualization.plotter import plot_multi_stock_chart
 from config import CACHE_DIR, CACHE_TIMEOUT, DATABASE_URL
 
