@@ -1,0 +1,1 @@
+# This file makes 'stocker.data.fetchers' a Python package.
